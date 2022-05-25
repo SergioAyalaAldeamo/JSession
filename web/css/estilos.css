@@ -1,0 +1,38 @@
+@import url('normalize.css');
+@import url('bootstrap.min.css');
+
+
+
+
+
+body,html{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+   background-image: url(../image/fondo.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   height: 600px;
+   background-attachment: fixed;
+   background-size: cover;
+   color:#ffff;
+
+}.container{
+    
+    border:10px solid #E1E1E1;
+    border-radius: 5px;
+    padding: 15px;
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%)
+    
+}
+@media(max-width: 400px){
+    .container{
+        width: 90%;
+    }
+}
